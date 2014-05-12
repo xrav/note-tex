@@ -509,27 +509,27 @@ $N = \frac{204 \cdot 8}{672} = 3$~--- число исполнителей про
 \begin{figure}[ht]
  \centering
  \begin{tikzpicture}
-    % \begin{axis}[
-    %  width = 11cm,
-    %  xlabel = {Время, мес.},
-    %  ylabel = {ЧДД, руб.},
-    %  xtick align = center,
-    %  yminorgrids, ymajorgrids,
-    %  xmajorgrids,
-    %  minor y tick num = 4,
-    %  legend style={at={(0.74,0.74)}, anchor=southwest}
-    % ],
-    % \addplot[black!80!black, mark=o, smooth] plot coordinates {
-    %     (1,-66451)
-    %     (2,-192652)
-    %     (3,-318853)
-    %     (4,-450754)
-    %     (5,-464050)
-    %     (6,-286050)
-    %     (7,-108050)
-    %     (8,69950)
-    % };
-    % \end{axis}
+    \begin{axis}[
+     width = 11cm,
+     xlabel = {Время, мес.},
+     ylabel = {ЧДД, руб.},
+     xtick align = center,
+     yminorgrids, ymajorgrids,
+     xmajorgrids,
+     minor y tick num = 4,
+     legend style={at={(0.74,0.74)}, anchor=southwest}
+    ],
+    \addplot[black!80!black, mark=o, smooth] plot coordinates {
+        (1,-66451)
+        (2,-192652)
+        (3,-318853)
+        (4,-450754)
+        (5,-464050)
+        (6,-286050)
+        (7,-108050)
+        (8,69950)
+    };
+    \end{axis}
  \end{tikzpicture}
  \caption{График изменения ЧДД}
  \label{fig:ChDD}
