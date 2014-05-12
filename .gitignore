@@ -6,3 +6,4 @@
 *.aux
 .DS_Store
 tex/inc
+*.blg
