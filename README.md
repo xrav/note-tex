@@ -4,7 +4,7 @@
 Чтобы собрать команда для установки пакетов:
 
 ```bash
-sudo apt-get install inkscape dia pgf context texlive\.\*cyr\.\* texlive\.\*extra
+sudo apt-get install inkscape dia pgf context texlive\.\*cyr\.\* texlive\.\*extra scalable-cyrfonts-tex
 ```
 После чего в папке с проектом делаем:
 ```bash
