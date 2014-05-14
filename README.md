@@ -11,3 +11,6 @@ sudo apt-get install inkscape dia pgf context texlive\.\*cyr\.\* texlive\.\*extr
 make
 ```
 В корневой папке появляется результат с именем rpz.pdf
+
+Стили и все-все взято отсюда:
+http://sevik.ru/latex/
