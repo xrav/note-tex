@@ -7,3 +7,4 @@
 .DS_Store
 tex/inc
 *.blg
+*.bbl
