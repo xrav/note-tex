@@ -8,3 +8,4 @@
 tex/inc
 *.blg
 *.bbl
+*.autosave
