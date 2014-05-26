@@ -10,3 +10,5 @@ tex/inc
 *.bbl
 *.autosave
 *.dia~
+*.sublime-project
+*.sublime-workspace
