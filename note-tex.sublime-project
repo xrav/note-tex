@@ -1,20 +1,22 @@
 {
+	"build_systems":
+	[
+		{
+			"cmd": "./createpdf.sh",
+			"name": "Create PDF",
+			"shell": true,
+			"working_dir": "${project_path:${folder}}"
+		}
+	],
 	"folders":
 	[
 		{
 			"follow_symlinks": true,
 			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/rav/Documents/study/dimploma/samples/dip_report"
 		}
-	],
-	 "build_systems":
-    [
-        {
-
-			"name": "Create PDF",    
-            "cmd": "./createpdf.sh",
-			"working_dir": "${project_path:${folder}}",
-  			"shell": true
-        }
-    ]
-
+	]
 }
