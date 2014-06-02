@@ -1,0 +1,6 @@
+MessageWrite
+Byte 0: 0x00 or 0x80
+Byte 1: 0x0B
+Byte 2: Inbox number (0-9)
+Byte 3: Размер блока
+Byte 4: Блок данных
