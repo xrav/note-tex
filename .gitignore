@@ -12,3 +12,4 @@ tex/inc
 *.dia~
 *.sublime-project
 *.sublime-workspace
+.vagrant
