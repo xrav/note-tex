@@ -8,6 +8,9 @@ sudo apt-get install -y git-core >/dev/null 2>&1
 echo "Installing inkscape..."
 sudo apt-get install -y inkscape >/dev/null 2>&1
 
+echo "Installing dia..."
+sudo apt-get install -y dia >/dev/null 2>&1
+
 echo "Installing pgf..."
 sudo apt-get install -y pgf >/dev/null 2>&1
 
