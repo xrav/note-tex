@@ -5,7 +5,8 @@
 .deps
 *.aux
 .DS_Store
-tex/inc
+tex/inc/dia
+tex/inc/svg
 *.blg
 *.bbl
 *.autosave
